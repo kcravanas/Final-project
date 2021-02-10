@@ -9,14 +9,15 @@ border: 2px solid #af7c4c;
 border-style: groove;
 opacity: 0.9;
 margin: 20px;
-border-radius: 20px;
+border-radius: 50px;
 
 }
 .jimvid{
   position: sticky;
+  top: 0;
   text-align: center;
   height: 100px;
-  width: 100px;
+  width: 900px;
   margin: auto;
 }
 }
@@ -30,7 +31,8 @@ header {
     border-radius: 20px;
 }
 #logo {
-  height: 35px;
+  width: 50;
+  height: 50px;
   margin-left: 30px;
   position: relative;
   bottom: 25px;
@@ -41,7 +43,7 @@ header {
 
 nav{
     
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     background-color: paleturquoise;
     border: 2px solid #af7c4c;

@@ -1,3 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--  -->
+<!-- For Nav bar icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--  -->
+<link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<style>
+    nav .top,
+    nav .links,
+    footer {
+      background: black;
+      color: white;
+    }
+  
+
+    body {
+      background-image: url("https://web.archive.org/web/20090820051549/http://geocities.com/northstarzone/MOVINGSTARS.gif");
+    }
+  
+
+    main ul {
+      position: relative;
+      list-style: none;
+      margin-left: 0;
+      padding-left: 1.2em;
+    }
+  
+
+    main ul li:before {
+      content: "👉";
+      position: absolute;
+      left: 0;
+    }
+  
+
+    .general-about .profile-pic {
+      margin-bottom: 0;
+    }
+  
+
+    .online img {
+      display: none;
+    }
+  
+
+    .online:before {
+      content: '';
+      display: inline-block;
+      position: relative;
+      width: 50px;
+      height: 50px;
+      background: url("https://web.archive.org/web/20091026171501/http://es.geocities.com/kawaii_angeles/blobhappy.gif");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  
+
+    .profile .friends-grid {
+      font-size: 0;
+    }
+  
+
+    .profile .friends .person,
+    .profile .friends p {
+      font-size: 13px;
+    }
+  
+
+    .profile .friends .person:first-child {
+      margin-left: 15px;
+    }
+  
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: rgb(180, 90, 200);
+      letter-spacing: .1em;
+    }
+  
+
+    .profile .blurbs .section h1,
+    .profile .blurbs .section h2,
+    .profile .blurbs .section h3,
+    .profile .blurbs .section h4,
+    .profile .blurbs .section h5,
+    .profile .blurbs .section h6,
+    .count {
+      color: rgb(0, 200, 100);
+    }
+  
+
+    main .col>div,
+    .profile .contact,
+    .profile .url-info,
+    .profile .table-section,
+    .home-actions {
+      border: 2px solid rgba(100, 10, 250, 0.6);
+    }
+  
+
+    .profile .contact .heading,
+    .profile .table-section .heading,
+    .home-actions .heading,
+    .profile .blurbs .heading,
+    .profile .friends .heading {
+      background: rgb(0, 0, 100);
+    }
+  
+
+    .details-table td:first-child,
+    .comments-table td:first-child,
+    .music-table td:first-child {
+      background: rgb(0, 0, 150);
+      color: rgba(200, 200, 200);
+    }
+  
+
+    .details-table td,
+    .comments-table td,
+    .music-table td {
+      background: rgb(10, 50, 120);
+    }
+  
+
+    main .col>div {
+      background: rgba(0, 0, 0, 0.8);
+      overflow-y: hidden;
+      overflow-x: auto;
+      margin: 15px 0;
+    }
+  
+
+    main a,
+    nav .links a,
+    nav .top a,
+    footer a {
+      color: rgb(150, 150, 255);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+  
+
+    main {
+      color: white;
+      font-size: 13px;
+      font-family: "Courier New", monospace;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0);
+      position: relative;
+      border: 5px solid purple;
+      border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+    }
+  
+
+    main:before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      width: 790px;
+      height: 100%;
+      z-index: -100;
+      animation: rotation 20s linear infinite;
+      background: url("https://web.archive.org/web/20091026003631/http://www.geocities.com/linakawaiistuff/goodluckcat.gif");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  
+
+    @keyframes rotation {
+      0% {
+        transform: scale(0.2) rotate(0deg);
+        left: -90%;
+        top: -50%;
+      }
+  
+
+      35% {
+        transform: scale(0.3) rotate(180deg);
+        left: 90%;
+        top: 50%;
+      }
+  
+
+      50% {
+        transform: scale(0.3) rotate(360deg);
+        left: 90%;
+        top: -50%;
+      }
+  
+
+      85% {
+        transform: scale(0.3) rotate(180deg);
+        left: -90%;
+        top: 50%;
+      }
+  
+
+      100% {
+        transform: scale(0.2) rotate(0deg);
+        left: -90%;
+        top: -50%;
+      }
+    }
+  </style>
 
 
 
