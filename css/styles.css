@@ -8,7 +8,7 @@ font-family: 'Indie Flower', cursive;
  border-radius: 300cm;
  border-top-width: 1000px;
  opacity: 0.9;
- /* margin: 0px; */
+ 
 }
 
 
@@ -62,7 +62,7 @@ header {
 nav{
     /* position: sticky;  */
     top: 0;
-    background-color: paleturquoise;
+    background-color: rgb(230, 150, 31);
     border: 2px solid #af7c4c;
     border-style: groove;
     opacity: 0.8;
@@ -105,8 +105,6 @@ border-radius: 20px;
 .left {width: 50%;
     float: left;
     
-    
-;
 }
 aside {
     height: 1020px;
@@ -120,7 +118,7 @@ aside {
 }
 footer {
     height: 100px;
-    background-color: darkslateblue;
+    background-color: rgb(230, 150, 31);
     margin: 20px;
     clear: both;
     box-shadow: 10px 10px;
@@ -228,7 +226,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 15px;
-  background-color: lightblue;
+  background-color: rgb(230, 150, 31);
   padding: 40px;
   
 }
@@ -239,12 +237,12 @@ input[type=submit]:hover {
 }
 /* Guitar/About For Sale CSS */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(240, 11, 11, 0.938);
+  box-shadow: none;
   max-width: 300px;
   margin: auto;
   text-align: center;
   font-family: arial;
-  /* border: none; */
+  
 }
 
 .price {
