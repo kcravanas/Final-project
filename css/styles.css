@@ -22,6 +22,7 @@ font-family: 'Indie Flower', cursive;
   height: 100px;
   width: 900px;
   margin: auto;
+  
 }
 .jimvid2{
   position: relative;
@@ -50,6 +51,7 @@ header {
   position: relative;
   bottom: 25px;
   float: left;
+
   
 }
 
@@ -222,9 +224,10 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: lightblue;
-  padding: 20px;
+  padding: 40px;
+  
 }
 #aboutimg{
   border-radius: 100px;
