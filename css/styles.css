@@ -51,6 +51,7 @@ header {
   position: relative;
   bottom: 25px;
   float: left;
+  
 
   
 }
@@ -233,4 +234,41 @@ input[type=submit]:hover {
   border-radius: 100px;
   height: 700px;
   width: 1325px;
+}
+/* Guitar/About For Sale CSS */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(240, 11, 11, 0.938);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  /* border: none; */
+}
+
+.price {
+  color: rgb(245, 9, 9);
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgb(13, 218, 40);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card{
+  color: orange;
+  float: left;
+  padding-left: 99px;
+  margin: 7px;
+  
 }
