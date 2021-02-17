@@ -247,8 +247,8 @@ input[type=submit]:hover {
 }
 
 .price {
-  color: rgb(245, 9, 9);
-  font-size: 22px;
+  color: coral;
+  font-size: 32px;
 }
 
 .card button {
