@@ -193,7 +193,7 @@ li{
 body {
   background-position: center;
     margin: 10px;
-    background-image: url(../img/guitarbackground.jpg); 
+    background-image: url("/img/guitarbackground.jpg"); 
     
     
 }   
