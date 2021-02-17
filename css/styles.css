@@ -4,10 +4,11 @@ font-family: 'Indie Flower', cursive;
 }
 /* Hero */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/newhero.jpg.crdownload");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/newhero.jpg.crdownload");
  border-radius: 300cm;
  border-top-width: 1000px;
  opacity: 0.9;
+ 
  
 }
 
@@ -62,7 +63,7 @@ header {
 nav{
     /* position: sticky;  */
     top: 0;
-    background-color: rgb(230, 150, 31);
+    background-color: black;
     border: 2px solid #af7c4c;
     border-style: groove;
     opacity: 0.8;
@@ -118,7 +119,7 @@ aside {
 }
 footer {
     height: 100px;
-    background-color: rgb(230, 150, 31);
+    background-color: black;
     margin: 20px;
     clear: both;
     box-shadow: 10px 10px;
@@ -178,7 +179,7 @@ li{
       }
       
       a:visited {
-        background-color: darkblue;
+        background-color: rgb(170, 210, 186);
       }
       
       a:hover {
@@ -186,13 +187,13 @@ li{
       }
       
       a:active {
-        background-color: blue;
+        background-color: none;
       } 
 
 body {
   background-position: center;
     margin: 10px;
-    background-image: url(/img/guitarbackground.jpg); 
+    background-image: url(../img/guitarbackground.jpg); 
     
     
 }   
@@ -226,7 +227,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 15px;
-  background-color: rgb(230, 150, 31);
+  background-color: rgba(31, 207, 230, 0.87);
   padding: 40px;
   
 }
@@ -266,7 +267,7 @@ input[type=submit]:hover {
   opacity: 0.7;
 }
 .card{
-  color: orange;
+  color: rgb(0, 255, 85);
   float: left;
   padding-left: 99px;
   margin: 7px;
@@ -277,6 +278,7 @@ body {
   font-family: Arial;
   font-size: 17px;
   padding: 8px;
+  opacity: 0.9;
 }
 
 * {
@@ -313,17 +315,18 @@ body {
 }
 
 .container {
-  background-color: rgb(230, 150, 31);
+  background-color:indigo;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 3px;
+  
 }
 
 input[type=text] {
   width: 100%;
   margin-bottom: 20px;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(185, 245, 216);
   border-radius: 3px;
 }
 
