@@ -78,6 +78,7 @@ section {
     border-radius: 20px;
     
 }
+
 #sectionimg {
   height: 277px;
   width: 611px;
@@ -98,7 +99,7 @@ article {
 }
 
 #jimi {
-  height: 835px;
+  height: 837px;
 width: 585px;
 border-radius: 20px;
 }
@@ -119,12 +120,13 @@ aside {
 footer {
     height: 100px;
     background-color: black;
+    
     margin: 20px;
     clear: both;
     box-shadow: 10px 10px;
     border-style: double;
     border-radius: 20px;
-    /* opacity: 0.9; */
+    
 }
 .fa {
   float: right;
@@ -144,7 +146,7 @@ h1 {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-decoration: peru;
 }
-ul{
+ul {
     text-align: center;
     list-style-type: none;
     margin: 0;
@@ -226,8 +228,9 @@ input[type=submit]:hover {
 
 .container2 {
   border-radius: 15px;
-  background-color: rgba(31, 207, 230, 0.87);
+  background-color:grey;
   padding: 40px;
+  opacity: initial;
   
   
 }
@@ -278,7 +281,7 @@ body {
   font-family: Arial;
   font-size: 17px;
   padding: 8px;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 * {
@@ -319,7 +322,8 @@ body {
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 3px;
-  opacity: 0.9;
+  opacity: 1;
+  margin: 50px;
   
 }
 
@@ -359,7 +363,8 @@ label {
 }
 
 a {
-  color: #2196F3;
+  color: grey;
+  font-family:fantasy;
 }
 
 hr {
