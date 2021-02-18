@@ -36,7 +36,7 @@ font-family: 'Indie Flower', cursive;
   margin: 9;
   float: right;
 }
-}
+  /* Header and Top */
 header {
     height: 100px;
     background-color:  rgb(122, 122, 148);
@@ -78,7 +78,7 @@ section {
     border-radius: 20px;
     
 }
-
+/* Begin Images */
 #sectionimg {
   height: 277px;
   width: 611px;
@@ -307,7 +307,7 @@ body {
 }
 
 .col-75 {
-  -ms-flex: 75%; /* IE10 */
+  -ms-flex: 75%; 
   flex: 75%;
 }
 
@@ -376,11 +376,3 @@ span.price {
   color: grey;
 }
 
-/* Responsive layout */
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
