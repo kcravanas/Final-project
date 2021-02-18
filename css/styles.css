@@ -7,7 +7,7 @@ font-family: 'Indie Flower', cursive;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/newhero.jpg.crdownload");
  border-radius: 300cm;
  border-top-width: 1000px;
- opacity: 0.9;
+ /* opacity: 0.9; */
  
  
 }
@@ -124,7 +124,7 @@ footer {
     box-shadow: 10px 10px;
     border-style: double;
     border-radius: 20px;
-    opacity: 0.9;
+    /* opacity: 0.9; */
 }
 .fa {
   float: right;
@@ -224,10 +224,11 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
+.container2 {
   border-radius: 15px;
   background-color: rgba(31, 207, 230, 0.87);
   padding: 40px;
+  
   
 }
 #aboutimg{
@@ -263,7 +264,7 @@ input[type=submit]:hover {
 }
 
 .card button:hover {
-  opacity: 0.7;
+  /* opacity: 0.7; */
 }
 .card{
   color: rgb(0, 255, 85);
